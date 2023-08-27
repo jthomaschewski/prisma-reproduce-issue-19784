@@ -2,7 +2,6 @@
   "name": "@prisma-repro/db",
   "private": true,
   "main": "./index.ts",
-  "types": "./index.d.ts",
   "prisma": {
     "seed": "pnpm tsx prisma/seed.ts"
   },
