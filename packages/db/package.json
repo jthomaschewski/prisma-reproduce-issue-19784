@@ -1,0 +1,22 @@
+{
+  "name": "@prisma-repro/db",
+  "private": true,
+  "main": "./index.ts",
+  "types": "./index.d.ts",
+  "prisma": {
+    "seed": "pnpm tsx prisma/seed.ts"
+  },
+  "scripts": {
+    "prisma": "prisma",
+    "db:generate": "prisma generate",
+    "clean": "rm -rf .turbo node_modules tsconfig.tsbuildinfo prisma/.generated"
+  },
+  "dependencies": {
+    "@prisma/client": "~5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.6",
+    "prisma": "~5.2.0",
+    "tsx": "^3.12.7"
+  }
+}

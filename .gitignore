@@ -1,0 +1,12 @@
+*.db
+pnpm-lock.yaml
+.turbo
+.next
+node_modules
+.generated
+*.tsbuildinfo
+*.log
+
+.DS_Store
+.idea
+.vscode
